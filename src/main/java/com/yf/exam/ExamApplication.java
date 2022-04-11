@@ -28,8 +28,9 @@ public class ExamApplication implements WebMvcConfigurer {
 		String port = env.getProperty("server.port");
 		String path = env.getProperty("server.servlet.context-path");
 		System.out.println();
-		System.out.println("hello world");
 		System.out.println();
+		System.out.println();
+		System.out.println("hello world");
 		System.out.println("hello world");
 		// 未配置默认空白
 		if(path == null){
