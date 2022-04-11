@@ -1,5 +1,6 @@
 package com.yf.exam;
 
+import com.google.common.collect.BoundType;
 import com.yf.exam.core.api.utils.JsonConverter;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.boot.SpringApplication;
@@ -28,7 +29,8 @@ public class ExamApplication implements WebMvcConfigurer {
 		String port = env.getProperty("server.port");
 		String path = env.getProperty("server.servlet.context-path");
 		System.out.println();
-
+		System.out.println();
+		System.out.println();
 		System.out.println();
 		// 未配置默认空白
 		if(path == null){
