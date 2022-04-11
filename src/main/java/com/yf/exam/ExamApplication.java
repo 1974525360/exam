@@ -29,6 +29,7 @@ public class ExamApplication implements WebMvcConfigurer {
 		String path = env.getProperty("server.servlet.context-path");
 		System.out.println();
 
+		System.out.println();
 		// 未配置默认空白
 		if(path == null){
 			path = "";
